@@ -15,27 +15,27 @@ extension_anchor_indicator = ["bevy_gizmos"]
 extension_independent_skybox = ["bevy_asset", "bevy_core_pipeline"]
 
 [dependencies]
-bevy_app = "0.18.0-rc.2"
-bevy_color = "0.18.0-rc.2"
-bevy_derive = "0.18.0-rc.2"
-bevy_ecs = "0.18.0-rc.2"
-bevy_image = "0.18.0-rc.2"
-bevy_input = "0.18.0-rc.2"
-bevy_log = "0.18.0-rc.2"
-bevy_math = "0.18.0-rc.2"
-bevy_picking = "0.18.0-rc.2"
-bevy_reflect = "0.18.0-rc.2"
-bevy_camera = "0.18.0-rc.2"
-bevy_render = "0.18.0-rc.2"
-bevy_time = "0.18.0-rc.2"
-bevy_transform = "0.18.0-rc.2"
-bevy_utils = "0.18.0-rc.2"
-bevy_window = "0.18.0-rc.2"
-bevy_platform = "0.18.0-rc.2"
+bevy_app = "0.18"
+bevy_color = "0.18"
+bevy_derive = "0.18"
+bevy_ecs = "0.18"
+bevy_image = "0.18"
+bevy_input = "0.18"
+bevy_log = "0.18"
+bevy_math = "0.18"
+bevy_picking = "0.18"
+bevy_reflect = "0.18"
+bevy_camera = "0.18"
+bevy_render = "0.18"
+bevy_time = "0.18"
+bevy_transform = "0.18"
+bevy_utils = "0.18"
+bevy_window = "0.18"
+bevy_platform = "0.18"
 # Optional
-bevy_asset = { version = "0.18.0-rc.2", optional = true }
-bevy_core_pipeline = { version = "0.18.0-rc.2", optional = true }
-bevy_gizmos = { version = "0.18.0-rc.2", optional = true }
+bevy_asset = { version = "0.18", optional = true }
+bevy_core_pipeline = { version = "0.18", optional = true }
+bevy_gizmos = { version = "0.18", optional = true }
 
 [dev-dependencies]
 bevy_framepace = "0.20"
